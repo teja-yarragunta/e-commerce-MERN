@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce application with the MERN stack",
+  "type":"module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teja-yarragunta/e-commerce.git"
+  },
+  "author": "Teja Yarragunta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teja-yarragunta/e-commerce/issues"
+  },
+  "homepage": "https://github.com/teja-yarragunta/e-commerce#readme"
+}
