@@ -2,10 +2,13 @@
   "name": "e-commerce",
   "version": "1.0.0",
   "description": "e-commerce application with the MERN stack",
-  "type":"module",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/teja-yarragunta/e-commerce/issues"
   },
-  "homepage": "https://github.com/teja-yarragunta/e-commerce#readme"
+  "homepage": "https://github.com/teja-yarragunta/e-commerce#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
 }
