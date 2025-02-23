@@ -2,7 +2,7 @@ import React from 'react'
 
 const PlaceOrderScreen = () => {
   return (
-    <h1>h</h1>
+    <h1>hello</h1>
   )
 }
 
